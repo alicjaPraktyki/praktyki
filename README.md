@@ -202,36 +202,36 @@ ___
 
 ## App.java
 
-![App.java](documentation/images/s01.PNG)
+![App.java](documentation/images/s01.png)
 
 ___
 
 ## KolorRGB.java
 
-![KolorRGB.java](documentation/images/s02.PNG)
+![KolorRGB.java](documentation/images/s02.png)
 
 ___
 
 ## KolorCMYK.java
 
-![KolorCMYK.java](documentation/images/s03.PNG)
+![KolorCMYK.java](documentation/images/s03.png)
 
 ___
 
 ## PorownanieJasnosci.java
 
-![PorownanieJasnosci.java](documentation/images/s04.PNG)
-![PorownanieJasnosci.java](documentation/images/s05.PNG)
-![PorownanieJasnosci.java](documentation/images/s06.PNG)
-![PorownanieJasnosci.java](documentation/images/s07.PNG)
+![PorownanieJasnosci.java](documentation/images/s04.png)
+![PorownanieJasnosci.java](documentation/images/s05.png)
+![PorownanieJasnosci.java](documentation/images/s06.png)
+![PorownanieJasnosci.java](documentation/images/s07.png)
 
 ___
 
 ## KolorPrzeciwny.java
 
-![KolorPrzeciwny.java](documentation/images/s08.PNG)
-![KolorPrzeciwny.java](documentation/images/s09.PNG)
+![KolorPrzeciwny.java](documentation/images/s08.png)
+![KolorPrzeciwny.java](documentation/images/s09.png)
 
 ___
 
-![Output](documentation/images/s10.PNG)
+![Output](documentation/images/s10.png)
