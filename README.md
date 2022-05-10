@@ -127,10 +127,11 @@ ___
 ### kpRGB()
 
 To funkcja typu void. Odpowiada za:
-* Obliczenie koloru przeciwnego wobec oryginalnego za pomocą wzoru na syntezę addytywną (barwy dopełniające dają biel (nakładanie świateł, zastosowanie w monitorach i telewizorach kolorowych)) [źródło](https://en.wikipedia.org/wiki/Complementary_colors)
-    rDop = 255 - r;
-    gDop = 255 - g;
-    bDop = 255 - b;
+* Obliczenie koloru przeciwnego wobec oryginalnego za pomocą wzoru na syntezę addytywną (barwy dopełniające dają biel (nakładanie świateł, zastosowanie w monitorach i telewizorach kolorowych)) -> [źródło](https://en.wikipedia.org/wiki/Complementary_colors)  
+
+    rDop = 255 - r;  
+    gDop = 255 - g;  
+    bDop = 255 - b;  
 
 ![kpRGB](documentation/images/kpRGB.PNG)
 ___
@@ -139,10 +140,11 @@ ___
 
 To funkcja typu void. Odpowiada za:
 * konwersję przestrzeni barw koloru CMYK na RGB, ponieważ nie ma rzetelnych źródeł wiedzy na temat wzoru na syntezę subktraktywną dla przestrzeni barw CMYK
-* Obliczenie koloru przeciwnego wobec oryginalnego za pomocą wzoru na syntezę addytywną (barwy dopełniające dają biel (nakładanie świateł, zastosowanie w monitorach i telewizorach kolorowych)) [źródło](https://en.wikipedia.org/wiki/Complementary_colors)
-    rDop = 255 - r;
-    gDop = 255 - g;
-    bDop = 255 - b;
+* Obliczenie koloru przeciwnego wobec oryginalnego za pomocą wzoru na syntezę addytywną (barwy dopełniające dają biel (nakładanie świateł, zastosowanie w monitorach i telewizorach kolorowych)) -> [źródło](https://en.wikipedia.org/wiki/Complementary_colors)  
+
+    rDop = 255 - r;  
+    gDop = 255 - g;  
+    bDop = 255 - b;  
 
 ![kpCMYK](documentation/images/kpCMYK.PNG)
 
@@ -152,45 +154,44 @@ ___
 
 Przewidywane wyniki (obliczone za pomocą kalkulatorów internetowych):
 
-1.1)
-**rgb: 118, 116, 235**  
-**dominant: Blue**  
-hex: #7674EB  
-lumin1: 22,3  
+> 1.1)
+> **rgb: 118, 116, 235**  
+> **dominant: Blue**  
+    hex: #7674EB  
+    lumin1: 22,3  
 
-1.2)
-**rgb: 118,27,27**  
-**dominant: Red**  
-hex: #761B1B  
-lumin2: 4,7  
+> 1.2)
+> **rgb: 118,27,27**  
+> **dominant: Red**  
+    hex: #761B1B  
+    lumin2: 4,7  
 
-1.3)
-**lumin1 - lumin2: 17,6**  
+> 1.3)
+> **lumin1 - lumin2: 17,6**  
 
-2.1)
-**cmyk: 5, 15, 100, 5**  
-**dominant: Yellow**  
-rgb: 230, 206, 0  
-hex: #E6CE00  
-lumin3: 60,96  
+> 2.1)
+> **cmyk: 5, 15, 100, 5**  
+> **dominant: Yellow**  
+    rgb: 230, 206, 0  
+    hex: #E6CE00  
+    lumin3: 60,96  
 
-2.2)
-**cmyk: 55, 10, 30, 35**  
-**dominant: Green**  
-rgb: 75, 149, 166  
-hex: #4B9574  
-lumin4: 24,2  
+> 2.2)
+> **cmyk: 55, 10, 30, 35**  
+> **dominant: Green**  
+    rgb: 75, 149, 166  
+    hex: #4B9574  
+    lumin4: 24,2  
 
-2.3)
-**lumin1 - lumin2: 36% ** 
+> 2.3)
+> **lumin1 - lumin2: 36%** 
 
-3.1)
-**rgb comp: 137, 139, 20** 
-rgb1 comp: #898b14  
-
-**cmyk comp: 90, 81, 0, 0**  
-cmyk1 comp: #1931ff  
-rgb: 25, 49, 255  
+> 3.1)
+> **rgb comp: 137, 139, 20** 
+    rgb1 comp: #898b14  
+> **cmyk comp: 90, 81, 0, 0**  
+    cmyk1 comp: #1931ff  
+    rgb: 25, 49, 255  
 
 ![output](documentation/images/output.PNG)
 
