@@ -26,10 +26,10 @@ public class PorownanieJasnosci {
 
         if(lumin1 > lumin2)
         {
-            System.out.println("Kolor 1 jest jasniejszy o " + Math.floor((lumin1-lumin2)*100) + "%");
+            System.out.println("Kolor 1 jest jasniejszy o " + Math.floor((lumin1-lumin2)*100));
         }
         else if(lumin2 > lumin1){
-            System.out.println("Kolor 2 jest jasniejszy o " + Math.floor((lumin2-lumin1)*100) + "%");
+            System.out.println("Kolor 2 jest jasniejszy o " + Math.floor((lumin2-lumin1)*100));
         }
         else {
             System.out.println("Kolory maja taka sama jasnosc");
