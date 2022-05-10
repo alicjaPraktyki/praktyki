@@ -13,14 +13,10 @@ public class App {
         pJ2.porownajJasnosc();
 
         KolorPrzeciwny kp1 = new KolorPrzeciwny(kRGB1.getRGB());
-        KolorPrzeciwny kp2 = new KolorPrzeciwny(kRGB2.getRGB());
         KolorPrzeciwny kp3 = new KolorPrzeciwny(kCMYK1.getCMYK());
-        KolorPrzeciwny kp4 = new KolorPrzeciwny(kCMYK2.getCMYK());
 
         kp1.kolorPrzeciwny();
-        kp2.kolorPrzeciwny();
         kp3.kolorPrzeciwny();
-        kp4.kolorPrzeciwny();
     }
 }
 

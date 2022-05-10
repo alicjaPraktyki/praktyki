@@ -80,18 +80,6 @@ public class PorownanieJasnosci {
 
     public String dominant(double r, double g, double b)
     {
-        /**
-            https://en.wikipedia.org/wiki/List_of_colors_by_shade
-
-            hue (w stopniach):
-                red: 0-18 i 306-359
-                orange: 19 - 41
-                yellow: 42 - 69
-                green: 70 - 166
-                blue: 167 - 251
-                violet: 252 - 305
-         */
-
         if(r == g && r == b) {
             if(r <= 17)
             {
@@ -105,30 +93,27 @@ public class PorownanieJasnosci {
                 return "white"; }
         }
         else {
-            double h = rgbToHSV(r, g, b);
-            if((h >= 0 && h <= 18) || (h >= 306 && h <= 360)){
+            double h = rgbGetH(r, g, b);
+            if((h >= 0 && h <= 35) || (h >= 345 && h <= 360)){
                 return "red";
             }
-            else if(h >= 19 && h <= 41){
-                return "orange";
-            }
-            else if(h >= 42 && h <= 69){
+            else if(h >= 36 && h <= 79){
                 return "yellow";
             }
-            else if(h >= 70 && h <= 166){
+            else if(h >= 80 && h <= 165){
                 return "green";
             }
-            else if(h >= 167 && h <= 251){
+            else if(h >= 166 && h <= 250){
                 return "blue";
             }
-            else if(h >= 252 && h <= 305){
+            else if(h >= 251 && h <= 344){
                 return "violet";
             }
         }
         return " ";
     }
 
-    public double rgbToHSV(double r, double g, double b) {
+    public double rgbGetH(double r, double g, double b) {
         System.out.print("kolor dominujacy: ");
 
         r = r / 255.0;

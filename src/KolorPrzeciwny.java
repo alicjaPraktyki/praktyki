@@ -20,7 +20,6 @@ public class KolorPrzeciwny {
 
     public void kpRGB(double r, double g, double b)
     {
-        // https://en.wikipedia.org/wiki/Complementary_colors
         double rB = 255 - r;
         double gB = 255 - g;
         double bB = 255 - b;
